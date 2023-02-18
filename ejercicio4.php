@@ -8,6 +8,9 @@
 </head>
 <body>
     <?php
+        /* Imprime en pantalla los números múltiplos de 5, comprendidos entre el 1 y el 100.
+          Usa la estructura for. Devuelve el cuadrado de su suma.*/
+          
         // iniicamos la variable $sum en 0 
         $sum = 0;
         // iteramos del 1-100 y encontramos los multiplos de 5

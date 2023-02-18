@@ -8,7 +8,10 @@
 </head>
 <body>
     <?php
-    // Inicializamos la variable $num con el primer número del rango
+    /*Imprime en pantalla el cuadrado de los números del 1 al 50, ambos incluidos. 
+      Usa la estructura while. Devuelve en pantalla la suma total.  */
+    
+      // Inicializamos la variable $num con el primer número del rango
     $num = 1; 
     // Inicializamos la variable $sum en 0 para acumular la suma de los cuadrados
     $sum = 0; 

@@ -8,7 +8,11 @@
 </head>
 <body>
     <?php
-    // deifinimos una varieblaa para la suma 
+    /*Imprime en pantalla  los números impares 
+      del 1 al 100 y su suma acumulada, usando 
+      la estructura if.*/
+    
+      // deifinimos una varieblaa para la suma 
     $suma = 0;
     //establecemos las condiciones de los pares
     for ($i = 1; $i <= 100; $i++) {

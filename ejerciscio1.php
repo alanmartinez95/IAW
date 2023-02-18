@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    
     <?php
+    // Muestra información de la configuración de PHP en tu sistema.
     phpinfo();
     
     ?>

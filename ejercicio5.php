@@ -8,32 +8,17 @@
 </head>
 <body>
 <?php
-    /* el numero que queremos redondear sera $num, alamacenarmeos la parte entera con $ent 
-    floor (redonde los decimales hacia abajo),almacenamos los decimales en $dec */
-    $num = 12.3456789; 
-    $ent = floor($num);
-    $dec = $num - $ent;
+    /* Desarrolla el código necesario para redondear un número cualquiera 
+      con hasta tres cifras decimales, sin usar la función round */
 
-    /* multiplicamos * 1000 para convertir las cifras decimales en enteros y creamos otra variable 
-    donde almacenaremos la parte entera del resultado de * 1000 */
-    $dec *= 1000;
-    $dec_red = floor($dec);
+      // Número a redondear
+    $num = 1.5960384; 
 
-    // condicionamos si la cuarta cifra decimal >= 5, sumamos 1 a $dec_red
-    if ($dec - $dec_red >= 0.5) {
-        $dec_red++;
-        
-    } 
-        
-    // Si $dec_red es igual a 1000, lo redondeamos a 0 y sumamos 1 a $integer
-    if ($dec_red == 1000) {
-        $dec_red = 0;
-        $ent++;
-    }
+    // Redondea el número a tres cifras decimales
+    $num_redondeado = floor($num * 1000) / 1000; 
 
-    /* Concatenamos la parte entera con el resultado del redondeo de las
-    tres primeras cifras decimales y lo imprimimos en pantalla*/
-    echo $ent . "." . str_pad($dec_red, 3, "0", STR_PAD_LEFT);
+    // Imprime el número redondeado
+    echo $num_redondeado; 
 ?>
  
 </body>

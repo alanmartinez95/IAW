@@ -4,6 +4,9 @@
 	<title>Formulario de Pedido</title>
 </head>
 <body>
+	<!-- Idem que el anterior, sólo que ahora al enviar el pedido, devuelva una 
+	web que resume los artículos que han sido pedidos a través del formulario web. -->
+	
 	<h1>Formulario de Pedido</h1>
 	<form method="post" action="ejercicio10_pedido.php">
 		<label for="barras_pan">Barras de Pan:</label>

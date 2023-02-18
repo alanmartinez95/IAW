@@ -1,4 +1,7 @@
 <?php
+/* web que resume los artículos que han sido pedidos a través del formulario web
+  del ejercio 10*/
+  
 // Recogemos los datos del formulario
 $barras_pan = $_POST['barras_pan'];
 $bollos = $_POST['bollos'];
